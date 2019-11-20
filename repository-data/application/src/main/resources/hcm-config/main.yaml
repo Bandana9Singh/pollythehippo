@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    pollythehippo:
+      uri: http://www.pollythehippo.com/pollythehippo/nt/1.0
+      cnd: namespaces/pollythehippo.cnd

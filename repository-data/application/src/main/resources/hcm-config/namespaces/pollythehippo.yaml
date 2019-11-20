@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/pollythehippo:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ea4ec240-875a-4844-afc8-2f711d9a4720

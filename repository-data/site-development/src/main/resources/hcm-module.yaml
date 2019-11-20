@@ -1,0 +1,6 @@
+site: pollythehippo
+group: pollythehippo
+project: pollythehippo
+module:
+  name: pollythehippo-repository-data-site-development
+  after: pollythehippo-repository-data-site

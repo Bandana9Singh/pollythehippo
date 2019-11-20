@@ -1,0 +1,7 @@
+/content/gallery/pollythehippo:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 7e8260d5-3443-4708-b13b-8a46943eea2b
+  hippo:name: Polly The Hippo
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

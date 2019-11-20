@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>pollythehippo</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedProjectPackage>org.project</selectedProjectPackage>
+  <selectedBeansPackage>org.project.beans</selectedBeansPackage>
+  <selectedComponentsPackage>org.project.components</selectedComponentsPackage>
+  <selectedRestPackage>org.project.rest</selectedRestPackage>
+  <hstRoot>/hst:pollythehippo</hstRoot>
+  <webfileBundleName>site</webfileBundleName>
+  <setupDone>false</setupDone>
+  <useSamples>true</useSamples>
+  <extraTemplates>true</extraTemplates>
+</project>

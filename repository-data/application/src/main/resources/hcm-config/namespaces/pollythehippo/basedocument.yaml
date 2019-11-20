@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:namespaces/pollythehippo/basedocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bc574aca-b846-4ad4-b6ee-0ac21251d564
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e0cf179f-5203-4f9d-a8b9-cb4b8cb6c064
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hipposysedit:supertype: ['hippo:document', 'hippostdpubwf:document', 'hippostd:publishableSummary']
+          hipposysedit:uri: http://www.pollythehippo.com/pollythehippo/nt/1.0

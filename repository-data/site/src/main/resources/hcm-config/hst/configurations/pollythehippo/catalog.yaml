@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/pollythehippo/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /pollythehippo-catalog:
+        jcr:primaryType: hst:containeritempackage

@@ -1,0 +1,7 @@
+group: 
+  name: pollythehippo
+  after: hippo-cms
+project: pollythehippo
+module: 
+  name: pollythehippo-repository-data-development
+  after: pollythehippo-repository-data-application

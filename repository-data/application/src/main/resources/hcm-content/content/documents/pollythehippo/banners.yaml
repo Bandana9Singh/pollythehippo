@@ -1,0 +1,711 @@
+/content/documents/pollythehippo/banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 340f88de-3a14-4125-81bc-d30be583c621
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: 476bc0fb-cd1e-4848-8970-2aeec6d61917
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+    hippo:versionHistory: c09fbb03-d6e9-4f3c-9666-132e41d97b55
+    /banner1[1]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7c672ad2-be60-4c0c-93bd-e3500305ea7e
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 801fe49c-bc9d-4d8a-936b-788fe5afed24
+      hippotranslation:locale: en
+      pollythehippo:title: Sample banner
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[2]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 01433bec-9f31-41e3-b7b2-8a14997da353
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 801fe49c-bc9d-4d8a-936b-788fe5afed24
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:title: Sample banner
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner1[3]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 08851bb2-54e2-43fa-baa7-384aff038b38
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:01:08.699+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 801fe49c-bc9d-4d8a-936b-788fe5afed24
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:title: Sample banner
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+    hippo:name: banner2
+    hippo:versionHistory: c572fa82-2bc1-4fde-b835-badc17a61816
+    /banner2[1]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fc9c78f5-767c-480b-be60-c21ffa671156
+      hippo:availability: [live]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2019-11-18T13:01:28.957+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-18T13:01:39.092+05:30
+      hippotranslation:id: c0e16582-165d-49a0-bab6-10485126861c
+      hippotranslation:locale: en
+      pollythehippo:linkText: ''
+      pollythehippo:title: Sample banner 2
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner2[2]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: cf723430-4567-49a0-b1d8-bc07ea43a0da
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2019-11-18T13:01:28.957+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c0e16582-165d-49a0-bab6-10485126861c
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:linkText: ''
+      pollythehippo:title: Sample banner 2
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner2[3]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e759d614-2e64-42b9-99a6-e3dae5e9c9c8
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2019-11-18T13:01:27.551+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: c0e16582-165d-49a0-bab6-10485126861c
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:linkText: ''
+      pollythehippo:title: Sample banner 2
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 35b6fd7d-7b20-4794-accf-c26714a64815
+    hippo:versionHistory: c347c0a8-c55c-4659-a9f5-98de6c91048e
+    /banner3[1]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 001579b1-fe80-4a2c-ac57-2f16f39e4126
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T12:41:30.638+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T13:11:30.797+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 60e9b9dd-fe60-47a5-aa89-efef73ac8c46
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:linkText: ''
+      pollythehippo:title: Sample Banner 3
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>It is a long established fact that a reader will be distracted
+          by the readable content of a page when looking at its layout. The point
+          of using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it look
+          like readable English. Many desktop publishing packages and web page editors
+          now use Lorem Ipsum as their default model text, and a search for 'lorem
+          ipsum' will uncover many web sites still in their infancy. Various versions
+          have evolved over the years, sometimes by accident, sometimes on purpose
+          (injected humour and the like).</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner3[2]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 47adb644-70ae-47aa-96c7-3e92e40b1900
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T12:41:30.638+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T13:11:30.723+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 60e9b9dd-fe60-47a5-aa89-efef73ac8c46
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:linkText: ''
+      pollythehippo:title: Sample Banner 3
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>It is a long established fact that a reader will be distracted
+          by the readable content of a page when looking at its layout. The point
+          of using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it look
+          like readable English. Many desktop publishing packages and web page editors
+          now use Lorem Ipsum as their default model text, and a search for 'lorem
+          ipsum' will uncover many web sites still in their infancy. Various versions
+          have evolved over the years, sometimes by accident, sometimes on purpose
+          (injected humour and the like).</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner3[3]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bc5ff2ff-0c23-493f-a947-48650c88c1dc
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T12:41:30.638+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T13:11:30.723+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-18T15:01:35.939+05:30
+      hippotranslation:id: 60e9b9dd-fe60-47a5-aa89-efef73ac8c46
+      hippotranslation:locale: en
+      pollythehippo:linkText: ''
+      pollythehippo:title: Sample Banner 3
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>It is a long established fact that a reader will be distracted
+          by the readable content of a page when looking at its layout. The point
+          of using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it look
+          like readable English. Many desktop publishing packages and web page editors
+          now use Lorem Ipsum as their default model text, and a search for 'lorem
+          ipsum' will uncover many web sites still in their infancy. Various versions
+          have evolved over the years, sometimes by accident, sometimes on purpose
+          (injected humour and the like).</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 4709f797-61ae-4c36-93d4-63b5d50fc200
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner4:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 68a57f09-643c-45bd-8951-3e3b0405dd03
+    hippo:versionHistory: da58bd3c-a94b-42dd-8ffe-09d27a7b2ac3
+    /banner4[1]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: eebe0be6-19bd-424a-bc89-273feb9a6226
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T13:00:05.084+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:38:45.251+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6d2de452-540c-4128-a5af-d01d9ebee52f
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:flag: false
+      pollythehippo:linkText: Link to other doc
+      pollythehippo:title: Sample Banner 4 with updated Document type
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there
+          isn't anything embarrassing hidden in the middle of text. All the Lorem
+          Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+          making this the first true generator on the Internet.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner4[2]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d823986c-56e3-4ed8-9829-f1e2852cef52
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T13:00:05.084+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:01:28.609+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 6d2de452-540c-4128-a5af-d01d9ebee52f
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:linkText: Link to other doc
+      pollythehippo:title: Sample Banner 4 with updated Document type
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there
+          isn't anything embarrassing hidden in the middle of text. All the Lorem
+          Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+          making this the first true generator on the Internet.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner4[3]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2f7b0c22-b682-430d-ae28-cbf4e92b5390
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T13:00:05.084+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:01:28.609+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-18T15:01:32.026+05:30
+      hippotranslation:id: 6d2de452-540c-4128-a5af-d01d9ebee52f
+      hippotranslation:locale: en
+      pollythehippo:linkText: Link to other doc
+      pollythehippo:title: Sample Banner 4 with updated Document type
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there
+          isn't anything embarrassing hidden in the middle of text. All the Lorem
+          Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+          making this the first true generator on the Internet.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: beff458e-e07a-4065-8cad-8d96b67d13ec
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner5:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 45f6ef40-e5f9-400e-bdc2-8d30a286e90a
+    hippo:versionHistory: 68ee45a4-42e8-4c15-af19-fb1c158c88e1
+    /banner5[1]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ff6998ef-d4f4-48b5-9735-f0b3e7d6e348
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:03:00.052+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:34:42.543+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 67adc64e-a8e0-4289-aee3-43dc9982fced
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:flag: false
+      pollythehippo:linkText: Alfred Anonymous
+      pollythehippo:title: Sample Document with new type
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there
+          isn't anything embarrassing hidden in the middle of text.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner5[2]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 8ec27f76-be43-46b8-9e03-813658f133fe
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:03:00.052+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:04:02.345+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 67adc64e-a8e0-4289-aee3-43dc9982fced
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:linkText: Alfred Anonymous
+      pollythehippo:title: Sample Document with new type
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there
+          isn't anything embarrassing hidden in the middle of text.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner5[3]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d9c37ab1-acc1-4a99-8dff-f52273963796
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:03:00.052+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:04:02.345+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-18T15:34:40.230+05:30
+      hippotranslation:id: 67adc64e-a8e0-4289-aee3-43dc9982fced
+      hippotranslation:locale: en
+      pollythehippo:linkText: Alfred Anonymous
+      pollythehippo:title: Sample Document with new type
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable. If
+          you are going to use a passage of Lorem Ipsum, you need to be sure there
+          isn't anything embarrassing hidden in the middle of text.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner6:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 54b621dd-8ac2-4575-b07c-51dcfec77847
+    hippo:versionHistory: 440d06da-b227-4dad-bc84-ab7eee9e6034
+    /banner6[1]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fb3f36b8-3555-4eaa-ab3c-cf8f18c7e88a
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:39:39.251+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:39:39.251+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b5660539-7d0b-4638-99d2-f02160809edc
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:flag: true
+      pollythehippo:title: Sample banner with Flag property set
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner6[2]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 18dc2f53-adee-44c0-91cb-2f82fd6d6ab1
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:39:39.251+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:40:10.316+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: b5660539-7d0b-4638-99d2-f02160809edc
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:flag: true
+      pollythehippo:title: Sample banner with Flag property set
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner6[3]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: acaaa9ae-0b76-41b0-9f91-0ac1247b5bed
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:39:39.251+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:40:10.316+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-18T15:40:16.050+05:30
+      hippotranslation:id: b5660539-7d0b-4638-99d2-f02160809edc
+      hippotranslation:locale: en
+      pollythehippo:flag: true
+      pollythehippo:title: Sample banner with Flag property set
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner7:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 4886e9f3-ca42-45bb-9f15-120345f9c11e
+    hippo:versionHistory: a1ad4617-8bf4-4c10-b486-4d7c5e4b3a6a
+    /banner7[1]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 003bac09-7799-4080-9d67-301491805113
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:42:19.246+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:43:02.247+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 14fa1c00-e666-4f00-b142-7fdc4891b899
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:flag: false
+      pollythehippo:title: Sample Banner with altText property
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The standard chunk of Lorem Ipsum used since the 1500s
+          is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
+          "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+          original form, accompanied by English versions from the 1914 translation
+          by H. Rackham.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner7[2]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d340ad94-1daa-4b92-953d-0b748506bdd8
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:42:19.246+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:43:02.174+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 14fa1c00-e666-4f00-b142-7fdc4891b899
+      hippotranslation:locale: en
+      pollythehippo:altText: Banner Image altText
+      pollythehippo:flag: false
+      pollythehippo:title: Sample Banner with altText property
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The standard chunk of Lorem Ipsum used since the 1500s
+          is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
+          "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+          original form, accompanied by English versions from the 1914 translation
+          by H. Rackham.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /banner7[3]:
+      jcr:primaryType: pollythehippo:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 85410bcd-9626-4ad7-bf95-b99847863e0a
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2019-11-18T15:42:19.246+05:30
+      hippostdpubwf:lastModificationDate: 2019-11-18T15:43:02.174+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2019-11-18T15:43:08.785+05:30
+      hippotranslation:id: 14fa1c00-e666-4f00-b142-7fdc4891b899
+      hippotranslation:locale: en
+      pollythehippo:altText: image not present
+      pollythehippo:flag: false
+      pollythehippo:title: Sample Banner with altText property
+      /pollythehippo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>The standard chunk of Lorem Ipsum used since the 1500s
+          is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from
+          "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
+          original form, accompanied by English versions from the 1914 translation
+          by H. Rackham.</p>
+      /pollythehippo:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /pollythehippo:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

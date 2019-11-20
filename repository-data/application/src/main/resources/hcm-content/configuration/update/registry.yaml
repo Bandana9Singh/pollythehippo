@@ -1,0 +1,41 @@
+/hippo:configuration/hippo:update/hippo:registry/Document Updater:
+  jcr:primaryType: hipposys:updaterinfo
+  hipposys:batchsize: 10
+  hipposys:description: Update an existing Banner Document type with the alttext field.
+    If the image is not present in the existing documents, add the altText value with
+    the json value from the Updater Parameters.
+  hipposys:dryrun: true
+  hipposys:loglevel: DEBUG
+  hipposys:parameters: "{\"howmany\" :  10,\r\n \"altTextDefault\" : \"Banner Image\
+    \ altText\"\r\n}"
+  hipposys:query: //*[@hippo:paths='340f88de-3a14-4125-81bc-d30be583c621']//element(*,
+    pollythehippo:bannerdocument)
+  hipposys:script: "package org.hippoecm.frontend.plugins.cms.admin.updater\r\n\r\n\
+    import org.onehippo.repository.update.BaseNodeUpdateVisitor\r\nimport javax.jcr.Node\r\
+    \nimport javax.jcr.RepositoryException\r\nimport javax.jcr.Session\r\n\r\nclass\
+    \ UpdaterTemplate extends BaseNodeUpdateVisitor {\r\n  def property, propertyName,\
+    \ propertyValue\r\n  /**\r\n  boolean logSkippedNodePaths() {\r\n    return false\
+    \ // don't log skipped node paths\r\n  }\r\n\r\n  boolean skipCheckoutNodes()\
+    \ {\r\n    return false // return true for readonly visitors and/or updates unrelated\
+    \ to versioned content\r\n  }\r\n\r\n  Node firstNode(final Session session) throws\
+    \ RepositoryException {\r\n    return null // implement when using custom node\
+    \ selection/navigation\r\n  }\r\n\r\n  Node nextNode() throws RepositoryException\
+    \ {\r\n    return null // implement when using custom node selection/navigation\r\
+    \n  }\r\n  */\r\n  boolean doUpdate(Node node) {\r\n    if (node.hasProperty(\"\
+    hippostd:state\")) {\r\n      property = node.getProperty(\"hippostd:state\")\r\
+    \n      propertyName = property.getName().toString()\r\n      propertyValue =\
+    \ property.getValue().getString()\r\n      if(propertyValue == \"unpublished\"\
+    \ || propertyValue == \"draft\") {\r\n        //log.debug \"Unpublished or Draft\
+    \ node ${node.path}\"\r\n        String imageName = getImageName(node)\r\n   \
+    \     //TODO: Set the property name with the Image name, if it exists else populate\
+    \ with altTextDefault from Updater Parameters\r\n        node.setProperty(\"pollythehippo:altText\"\
+    , parametersMap[\"altTextDefault\"])\r\n      }\r\n    }\r\n    return false\r\
+    \n  }\r\n  \r\n  //TODO: Get the name of the Image from this function\r\n  String\
+    \ getImageName(Node node) {\r\n    NodeIterator nodeItr = node.getNodes()\r\n\
+    \    while (nodeItr.hasNext()) {\r\n      Node childNode = nodeItr.next()\r\n\
+    \      def childNodeName = childNode.getName()\r\n      if (childNodeName == \"\
+    pollythehippo:image\") {\r\n        log.debug \"ChildNodeName:: ${childNodeName}\"\
+    \r\n      }\r\n    }\r\n  }\r\n\r\n  boolean undoUpdate(Node node) {\r\n    throw\
+    \ new UnsupportedOperationException('Updater does not implement undoUpdate method')\r\
+    \n  }\r\n\r\n}"
+  hipposys:throttle: 1000

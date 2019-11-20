@@ -1,0 +1,108 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/pollythehippo:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        pollythehippo:content: Content
+        pollythehippo:image: Image
+        pollythehippo:link: Link
+        pollythehippo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        pollythehippo:content: Inhoud
+        pollythehippo:image: Afbeelding
+        pollythehippo:link: Link
+        pollythehippo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        pollythehippo:content: Contenu
+        pollythehippo:image: Image
+        pollythehippo:link: Lien
+        pollythehippo:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        pollythehippo:content: Inhalt
+        pollythehippo:image: Abbildung
+        pollythehippo:link: Link
+        pollythehippo:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/pollythehippo:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        pollythehippo:author: Author
+        pollythehippo:content: Content
+        pollythehippo:date: Date
+        pollythehippo:image: Image
+        pollythehippo:introduction: Introduction
+        pollythehippo:location: Location
+        pollythehippo:source: Source
+        pollythehippo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        pollythehippo:author: Auteur
+        pollythehippo:content: Inhoud
+        pollythehippo:date: Datum
+        pollythehippo:image: Afbeelding
+        pollythehippo:introduction: Introductie
+        pollythehippo:location: Locatie
+        pollythehippo:source: Bron
+        pollythehippo:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        pollythehippo:author: Verfasser
+        pollythehippo:content: Inhalt
+        pollythehippo:date: Datum
+        pollythehippo:image: Abbildung
+        pollythehippo:introduction: Einführung
+        pollythehippo:location: Standort
+        pollythehippo:source: Quelle
+        pollythehippo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        pollythehippo:author: Auteur
+        pollythehippo:content: Contenu
+        pollythehippo:date: Date
+        pollythehippo:image: Image
+        pollythehippo:introduction: Introduction
+        pollythehippo:location: Lieu
+        pollythehippo:source: Source
+        pollythehippo:title: Titre
+    /hippo:configuration/hippo:translations/hippo:types/pollythehippo:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Simple Document
+        pollythehippo:content: Content
+        pollythehippo:introduction: Introduction
+        pollythehippo:publicationdate: Publication date
+        pollythehippo:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Eenvoudig Document
+        pollythehippo:content: Inhoud
+        pollythehippo:introduction: Introductie
+        pollythehippo:publicationdate: Publicatiedatum
+        pollythehippo:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document simple
+        pollythehippo:content: Contenu
+        pollythehippo:introduction: Introduction
+        pollythehippo:publicationdate: Date de publication
+        pollythehippo:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Einfaches Dokument
+        pollythehippo:content: Inhalt
+        pollythehippo:introduction: Einführung
+        pollythehippo:publicationdate: Publikationsdatum
+        pollythehippo:title: Titel
